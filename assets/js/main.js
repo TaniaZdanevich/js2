@@ -16,8 +16,8 @@ function defUpperStr(str) {
     return (str || 'Default text').toUpperCase();
   }
   
-  console.log(defUpperStr('My text')); // MY TEXT
-  console.log(defUpperStr()); // DEFAULT TEXT
+  console.log(defUpperStr('My text'));
+  console.log(defUpperStr()); 
 
 
   function evenFn (n){
